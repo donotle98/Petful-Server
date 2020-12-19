@@ -22,7 +22,8 @@ module.exports = {
 
     dequeue() {
         // Remove a person from the queue.
-        return people.dequeue();
+        people.dequeue();
+        return people.all(people);
     },
 
     getCount() {
