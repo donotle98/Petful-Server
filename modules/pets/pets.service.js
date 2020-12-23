@@ -31,11 +31,11 @@ module.exports = {
         // Remove a pet from the queue.
         if (type === "dogs") {
             pets.dogs.dequeue();
-            return pets.dogs.all();
+            return pets.dogs.show();
         }
         if (type === "cats") {
             pets.cats.dequeue();
-            return pets.cats.all();
+            return pets.cats.show();
         }
         return pets;
     },

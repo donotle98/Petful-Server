@@ -16,11 +16,9 @@ router.get("/cats", (req, res) => {
     res.json(Pets.get("cats"));
 });
 router.delete("/dogs", (req, res) => {
-    People.dequeue();
     res.json(Pets.dequeue("dogs"));
 });
 router.delete("/cats", (req, res) => {
-    People.dequeue();
     res.json(Pets.dequeue("cats"));
 });
 
