@@ -3,7 +3,7 @@
 <a href="https://petful-client-git-master.donotle98.vercel.app/">Link to Live App!!!</a><br/>
 <a href="https://github.com/donotle98/Petful-Client">Link to Client Code!!!</a><br/>
 
-<span>The server side was built using Node.js, and Express</span>
+<span>The server side was built using Node.js, Express, Queues, Service Objects, Express routers</span>
 <span>To run the local server, run 'npm run dev'</span>
 
 <h1>API Documentation</h1>
