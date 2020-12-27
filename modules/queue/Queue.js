@@ -54,8 +54,6 @@ class Queue {
         // Return all items in the queue.
         let arr = [];
         let node = queue.first;
-        arr.push(node.value);
-        node = node.next;
         while (node) {
             arr.push(node.value);
             node = node.next;

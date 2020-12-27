@@ -15,7 +15,7 @@ router
         res.status(201).json(People.get());
     })
     .delete("/", (req, res) => {
-        res.status(204).send(People.dequeue());
+        res.status(200).send(People.dequeue());
     });
 
 module.exports = router;
